@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to My Blog Post!"
 date:   2020-07-21 01:08:51 +0000
 categories: jekyll update
 ---
@@ -23,6 +23,10 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+## Assignment Solution
+
+I simply ran `docker container run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve:latest` and did some changes to this file, on page refresh I was able to see the changes.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
